@@ -12,8 +12,8 @@ Function.prototype.myBind = function (context = {}, ...args) {
   context[key] = fn;
 
   // Return the function
-  return function () {
-    return context[key](...args);
+  return function (...newArgs) {
+    return context[key](...args, ...newArgs);
   };
 };
 
