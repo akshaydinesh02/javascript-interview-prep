@@ -39,3 +39,5 @@ Array.prototype.myReduce = function (callback, initialValue, thisArg) {
 const arr1 = [1, 2, 3, 4];
 const result1 = arr1.myReduce((acc, curr) => acc + curr, 0);
 console.log(result1); // Output: 10
+// methods
+// at, concat, entries, every, fill, find, findIndex, findLast, findLastIndex, flat, forEach, includes, indexOf, join, keys, lastIndexOf, pop, push, reduce, reverse, shift, slice, some, unshift, values.
